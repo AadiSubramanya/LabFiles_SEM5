@@ -1,0 +1,17 @@
+Karatsuba:
+
+karatsuba is a divide and conquer algorithm
+
+T(n/2) represents the time taken to recursively multiply two numbers that are half the size (half the number of digits) of the original n-digit numbers.
+
+3*t(n/2) = o(n^log(2)3) = o(n^1.585)
+
+karatsuba has only 3 multiplication operations
+
+addition = o(n), mult = o(n^2)
+
+faster only above a cutoff
+
+powers of 2:
+instead of actual multiplication, it just shifts the bits by using powers of 2
+
